@@ -36,9 +36,9 @@ def load_images_from_dir(dir_name):
 
     return img_paths
 
-# Command in format of: <neural_net> <img1> <img2> <img3> <img...>
+# Command in format of: <neural_net> ls <img1> <img2> <img3> <img...>
 #                       OR
-#                       <neural_net> <dir_name>
+#                       <neural_net> dir <dir_name>
 
 # Get the user args
 args = sys.argv
