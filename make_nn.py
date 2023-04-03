@@ -99,7 +99,7 @@ def generate_model():
 
 
 ######################################################################
-
+# Command line in format of: <img_sources> <network_name>
 
 # Get args from the user
 _, dir_name, net_name = sys.argv

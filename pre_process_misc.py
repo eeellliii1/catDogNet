@@ -34,6 +34,9 @@ def write_to_dest(dir_name, imgs, img_names):
 
 
 ###################################
+
+# Command in format of: <source_dir> <destination_dir>
+
 args = sys.argv
 
 source_dir = args[1]
