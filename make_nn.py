@@ -39,7 +39,7 @@ def import_image_data(dir_name):
             continue
 
         # Convert image at filepath to pixel array
-        pixel_inf = cv2.imread(dir_name + '/' + pic)
+        pixel_inf = cv2.resize(cv2.imread(dir_name + '/' + pic), (100, 100))
 
         # Get transformations and add to lists along with label
         pic_data_trans = get_img_variations(pixel_inf)

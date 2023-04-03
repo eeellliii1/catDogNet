@@ -8,7 +8,7 @@ import cv2
 def read_pic_data(pic_paths):
     pixel_data = []
     for pic in pic_paths:
-        p_dat = cv2.imread(pic)
+        p_dat = cv2.resize(cv2.imread(pic), (100, 100))
 
         pixel_data.append(p_dat)
 

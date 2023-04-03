@@ -34,7 +34,9 @@ def write_to_dest(dir_name, imgs, img_names):
 
 
 ###################################
-
+# NOW DEPRICATED make_nn.py and classify_nn.py automatically resize images
+#                pre_process_misc.py can be used to view the resized images for quality verification and demonstration
+#
 # Command in format of: <source_dir> <destination_dir>
 
 args = sys.argv
