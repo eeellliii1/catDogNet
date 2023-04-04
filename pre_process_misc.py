@@ -1,5 +1,4 @@
 import os
-from posixpath import dirname
 import sys
 import cv2
 

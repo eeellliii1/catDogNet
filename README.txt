@@ -6,6 +6,13 @@ Contents:
 3. pre_process_misc.py: copies and converts images en-masse to 100 x 100 pixels (DEPRICATED)
 4. example.h5: an example network trained on a large number of cat and dog images
 
+Required Packages:
+1. tensorflow
+2. numpy
+3. os
+4. sys
+5. cv2
+
 Using classify.py:
     Command will look like: 
                        python classify.py <neural_net> ls <img1> <img2> <img3> <img...>

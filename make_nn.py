@@ -1,11 +1,9 @@
-import tensorflow as tf
 import numpy as np
 import os
 import sys
 import cv2
 
 from tensorflow.keras import layers, models
-from tensorflow.keras.losses import BinaryCrossentropy
 from tensorflow.keras.optimizers import Adam
 
 # Get image transformations for data augmentation
